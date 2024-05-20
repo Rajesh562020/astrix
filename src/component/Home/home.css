@@ -1,0 +1,148 @@
+.home{
+    background-color: rgb(22, 21, 21);
+    color:  rgb(50, 53, 53);
+    min-height: 100vh;
+    position: relative;
+  
+}
+.home_text_background{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+   
+}
+.home_text_background_brand{
+    font-size: 8rem;
+    font-weight: 800;
+  
+}
+.home_text_background_events{
+    font-size: 8rem;
+    font-weight: 800;
+}
+.carousel_here{
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+
+.hme_ctr_7_jts_in_news_coverflow{
+    width:70rem;
+}
+.img_jtsinNews{
+    height:500px;
+    width:370px;
+  
+  }
+
+  .RightSide {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%; /* Adjust the width as needed */
+    min-height: 100vh; /* Full viewport height */
+    background-color: rgb(22, 21, 21);
+    z-index: 999;
+    overflow-y: auto;
+  }
+  .content_box {
+   
+  }
+.explore{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    left: 7rem;
+    top: 2rem;
+    width: 50%;
+    white-space: wrap;
+}
+.Event_name{
+    color: white;
+    position: absolute;
+    left: 7rem;
+    top: 10rem;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.venue_details{
+    margin-top: 1rem;
+    position: absolute;
+    left: 7rem;
+    top: 15rem; 
+    display: flex;
+    flex-direction: row;
+}
+.text_venue{
+    position: absolute;
+    left: 7rem;
+    top: 20rem; 
+    color: aliceblue; 
+}
+.qr_code{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+/* MovingText.css */
+
+
+
+
+
+ .text-container {
+    white-space: nowrap; 
+    
+    width: 15%;
+    min-height: 100vh;
+    overflow: hidden; 
+    position: relative;
+    background-color: rgb(188, 162, 218);
+
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .moving-text {
+    display: inline-block;
+    position: absolute;
+    bottom: -100%; 
+    animation: moveText 3s linear infinite alternate; 
+    writing-mode: vertical-lr;
+    font-size: 3rem;
+    font-weight: 600;
+  } 
+  
+  /* Define the animation */
+   @keyframes moveText {
+    0% {
+      transform: translateY(-1%);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+  } 
+  
+
+ 
+  
+  @media (max-width:1200px){
+    .hme_ctr_7_jts_in_news_coverflow{
+        width:40rem;
+    }
+    .img_jtsinNews{
+        height:300px;
+        width:170px;
+      
+      }
+  }
+  @media (max-width:710px){
+   
+      
+  }
+  
